@@ -9,6 +9,12 @@ def ft_recursive(n):
         z=n*ft_recursive(n-1)
     return z
 
+def ft_helper(n, acc):
+    return acc * n if n == 2 else ft_helper(n-1, acc * n)
+
+def ft_tail_recursive(n):
+    return ft_helper(n, 1)
+
 def ft_print(func, n):
 	t1 = time.time()
 	print func(n)
@@ -19,4 +25,7 @@ print ">"*5, "Factorial", "<"*5
 print "Enter number: "
 n = int(raw_input("Enter a number: "))
 b1 = ft_print(ft_recursive, n) #~ 21825
+b2 = ft_print(ft_tail_recursive, n)
+
 print b1
+print b2
