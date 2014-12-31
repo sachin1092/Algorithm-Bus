@@ -58,26 +58,26 @@ public class Fact {
 	    float dt;
 
 	    //Tail Recursion
-	    // t1 = System.currentTimeMillis();
-	    // print("Factorial is:", ftHelper(n)); //~9918
-	    // t2 = System.currentTimeMillis();
-	    // dt = (t2 - t1); //0.477
-	    // dt = (float)(dt/1000f);
-	    // print("Tail Recursion in:", dt);
+	    t1 = System.currentTimeMillis();
+	    print("Factorial is:", ftHelper(n)); //~9918
+	    t2 = System.currentTimeMillis();
+	    dt = (t2 - t1); //0.477
+	    dt = (float)(dt/1000f);
+	    print("Tail Recursion in:", dt);
 
 	    //Recursion
-	    // t1 = System.currentTimeMillis();
-	    // print("Factorial is:", ftRecursive(n)); //~9154
-	    // t2 = System.currentTimeMillis();
-	    // dt = (t2 - t1); //0.308
-	    // dt = (float)(dt/1000f);
-	    // print("Recursion in:", dt);
+	    t1 = System.currentTimeMillis();
+	    print("Factorial is:", ftRecursive(n)); //~9154
+	    t2 = System.currentTimeMillis();
+	    dt = (t2 - t1); //0.308
+	    dt = (float)(dt/1000f);
+	    print("Recursion in:", dt);
 
 	    //Iterative
 	    t1 = System.currentTimeMillis();
 	    print("Factorial is:", ftLoop(n)); //~100000 //~9154 //~9918
 	    t2 = System.currentTimeMillis();
-	    dt = (t2 - t1); //~48.612 // //
+	    dt = (t2 - t1); //~48.612 //0.405 //0.446
 	    dt = (float)(dt/1000f);
 	    print("Iterative in:", dt);
 	}
