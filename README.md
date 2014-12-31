@@ -7,12 +7,12 @@ Algorithms:
 --
 
 <b>Completed:</b>
+* Factorial Finder
 
 <b>TO DO:</b>
 * Fibonacci Sequence
 * Prime Factorization
 * Next Prime Number
-* Factorial Finder
 * Merge sort
 * Bubble sort
 * Quick sort
