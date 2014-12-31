@@ -19,7 +19,7 @@ end
 
 # Iterative with inject
 def ft_inject(n)
-  (1..n).inject {|prod, i| prod * i;}
+	(1..n).inject {|prod, i| prod * i;}
 end
 
 puts ">"*5 + "Factorial" + "<"*5
