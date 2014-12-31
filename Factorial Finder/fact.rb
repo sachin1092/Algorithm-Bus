@@ -26,8 +26,8 @@ puts ">"*5 + "Factorial" + "<"*5
 puts "Enter number: "
 num = gets.chomp.to_i
 bench1 = Benchmark.measure { puts ft_recursive(num) } 
-bench2 = Benchmark.measure { puts ft_loop(num) } #7.567 + 7.499 + 7.45 + 7.698 ~ 7.5535
-bench3 = Benchmark.measure { puts ft_inject(num) } #7.542 + 7.639 + 7.482 + 7.412 ~ 7.51875
+bench2 = Benchmark.measure { puts ft_loop(num) }
+bench3 = Benchmark.measure { puts ft_inject(num) }
 puts "Recursive in #{bench1}"
 puts "Iterative loop in #{bench2}"
 puts "Iterative inject in #{bench3}"
