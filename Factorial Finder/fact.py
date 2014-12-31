@@ -32,7 +32,7 @@ print "Enter number: "
 n = int(raw_input("Enter a number: "))
 b1 = ft_print(ft_loop, n)
 b2 = ft_print(ft_recursive, n) #~ 21825
-b3 = ft_print(ft_tail_recursive, n)
+b3 = ft_print(ft_tail_recursive, n) #~ 21825
 
 print b1
 print b2
