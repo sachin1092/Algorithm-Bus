@@ -7,7 +7,7 @@ Algorithms:
 --
 
 <b>Completed:</b>
-* Factorial Finder { (✓)Ruby (✓)Python (✗)Haskel (✗)Java }
+* Factorial Finder { (✓)Ruby (✓)Python (✗)Haskel (✓)Java }
 
 <b>TO DO:</b>
 * Fibonacci Sequence
