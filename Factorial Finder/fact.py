@@ -3,6 +3,7 @@ import time
 import sys
 sys.setrecursionlimit(50000)
 
+# Iterative
 def ft_loop(n):
     result = 1
     for i in range(1, n+1):
@@ -12,20 +13,24 @@ def ft_loop(n):
 from operator import mul
 from functools import reduce
  
+# Functional
 def ft_functional(n):
     return reduce(mul, range(1, n+1), 1)
 
+# Recursive
 def ft_recursive(n):
     x = 1
     if n > 1:
         x = n*ft_recursive(n-1)
     return x
 
+# Recursive with Tail recursion
 def ft_helper(n, acc):
     return acc * n if n == 2 else ft_helper(n-1, acc * n)
 
 def ft_tail_recursive(n):
     return ft_helper(n, 1)
+
 
 def ft_print(func, n):
 	t1 = time.time()
