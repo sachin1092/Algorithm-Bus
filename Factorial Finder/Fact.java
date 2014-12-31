@@ -59,9 +59,9 @@ public class Fact {
 
 	    //Tail Recursion
 	    t1 = System.currentTimeMillis();
-	    print("Factorial is:", ftHelper(n)); //~9918
+	    print("Factorial is:", ftHelper(n)); //~9918 //~9154
 	    t2 = System.currentTimeMillis();
-	    dt = (t2 - t1); //0.477
+	    dt = (t2 - t1); //0.477 //0.379
 	    dt = (float)(dt/1000f);
 	    print("Tail Recursion in:", dt);
 

@@ -28,20 +28,3 @@ Limit | Recursive | Tail Recursive | Iterative | Functional
 
 
 Crashed refers to segmentation fault
-
----
-
-Java
---
-
-Tail Recursive crashed after <b>9918</b>
-Simple Recursive crashed after <b>9154</b>
-
-Limit | Recursive | Tail Recursive | Iterative
---- | --- | --- | --- 
-9918|  Crashed | 0.477s | 0.446s
-9154|  0.308s | 0.379s | 0.405s
-100000 | Crashed | Crashed | 48.612s
-
-
-Crashed refers to StackOverflowError
