@@ -13,13 +13,13 @@ from operator import mul
 from functools import reduce
  
 def ft_functional(n):
-    return reduce(mul, range(1,n+1), 1)
+    return reduce(mul, range(1, n+1), 1)
 
 def ft_recursive(n):
-    z=1
-    if n>1:
-        z=n*ft_recursive(n-1)
-    return z
+    x = 1
+    if n > 1:
+        x = n*ft_recursive(n-1)
+    return x
 
 def ft_helper(n, acc):
     return acc * n if n == 2 else ft_helper(n-1, acc * n)
