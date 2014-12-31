@@ -7,7 +7,7 @@ public class Fact {
 	 * [ftRecursiveTail Factorial using tail recursion]
 	 * @param  acc [accumulator]
 	 * @param  n   [number to find factorial for]
-	 * @return Factorial of n [description]
+	 * @return Factorial of n
 	 */
 	public static BigInteger ftRecursiveTail(BigInteger acc, BigInteger n) {
 		if(n == BigInteger.ZERO)
