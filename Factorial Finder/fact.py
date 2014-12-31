@@ -43,10 +43,10 @@ print "Enter number: "
 n = int(raw_input("Enter a number: "))
 b1 = ft_print(ft_loop, n)
 b2 = ft_print(ft_functional, n)
-# b3 = ft_print(ft_recursive, n) #~ 21825
-# b4 = ft_print(ft_tail_recursive, n) #~ 21825
+b3 = ft_print(ft_recursive, n)
+b4 = ft_print(ft_tail_recursive, n)
 
 print b1
 print b2
-# print b3
-# print b4
+print b3
+print b4
