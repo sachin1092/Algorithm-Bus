@@ -17,10 +17,17 @@ def ft_loop (number)
     f
 end
 
+# Iterative with inject
+def ft_inject(n)
+  (1..n).inject {|prod, i| prod * i;}
+end
+
 puts ">"*5 + "Factorial" + "<"*5
 puts "Enter number: "
 num = gets.chomp.to_i
 bench1 = Benchmark.measure { puts ft_recursive(num) } 
 bench2 = Benchmark.measure { puts ft_loop(num) } 
+bench3 = Benchmark.measure { puts ft_inject(num) } 
 puts "Completed in #{bench1}"
 puts "Completed in #{bench2}"
+puts "Completed in #{bench3}"
