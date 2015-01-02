@@ -34,7 +34,7 @@ Crashed refers to segmentation fault
 Java
 --
 
-Tail Recursive crashed after <b>9918</b>
+Tail Recursive crashed after <b>9918</b></br>
 Simple Recursive crashed after <b>9154</b>
 
 Limit | Recursive | Tail Recursive | Iterative
