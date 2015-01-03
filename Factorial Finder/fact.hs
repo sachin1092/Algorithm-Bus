@@ -7,3 +7,6 @@ fact_rec n
 
 --Simple product method
 fact_prod n = product [1..n]
+
+--Fold method
+fact_fold n = foldl (*) 1 [1..n]
