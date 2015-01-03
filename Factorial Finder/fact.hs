@@ -10,3 +10,8 @@ fact_prod n = product [1..n]
 
 --Fold method
 fact_fold n = foldl (*) 1 [1..n]
+
+--Without lib functions
+factorial :: Integral -> Integral
+factorial 0 = 1
+factorial n = n * factorial (n-1)
