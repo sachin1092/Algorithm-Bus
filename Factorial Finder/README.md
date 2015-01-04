@@ -47,3 +47,13 @@ Limit | Recursive | Tail Recursive | Iterative
 
 
 Crashed refers to StackOverflowError
+
+---
+
+Haskell
+--
+
+Limit | Tail Recursive | Product | Fold
+--- | --- | --- | --- 
+50000|  3.198s | - | -
+100000 | 17.78s | - | -
