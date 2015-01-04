@@ -24,5 +24,8 @@ main = defaultMain [
                ],
    bgroup "fact_prod" [ bench "50000"  $ whnf fact_prod 50000
                , bench "100000"  $ whnf fact_prod 100000
+               ],
+	bgroup "fact_fold" [ bench "50000"  $ whnf fact_fold 50000
+               , bench "100000"  $ whnf fact_fold 100000
                ]
   ]
