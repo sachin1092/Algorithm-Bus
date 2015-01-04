@@ -21,5 +21,8 @@ fact_fold n = foldl (*) 1 [1..n]
 main = defaultMain [
   bgroup "fact_rec" [ bench "50000"  $ whnf fact_rec 50000
                , bench "100000"  $ whnf fact_rec 100000
+               ],
+   bgroup "fact_prod" [ bench "50000"  $ whnf fact_prod 50000
+               , bench "100000"  $ whnf fact_prod 100000
                ]
   ]
