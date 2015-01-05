@@ -7,10 +7,10 @@ Algorithms:
 --
 
 <b>Completed:</b>
-* Factorial Finder { (✓)Ruby (✓)Python (✓)Haskel (✓)Java }
+* Factorial Finder 
+* Fibonacci Sequence { (✗)Ruby (✗)Python (✗)Haskel (✓)Java }
 
 <b>TO DO:</b>
-* Fibonacci Sequence
 * Prime Factorization
 * Next Prime Number
 * Merge sort

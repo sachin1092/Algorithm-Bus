@@ -1,6 +1,5 @@
 import java.math.BigInteger;
 import java.util.Scanner;
-import java.lang.reflect.Method;
 
 public class Fact {
 
