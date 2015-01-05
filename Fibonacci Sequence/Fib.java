@@ -12,9 +12,17 @@ public class Fib {
 	    t1 = System.currentTimeMillis();
 	    print(n + "th fibonacci number is:", fibTail(n));
 	    t2 = System.currentTimeMillis();
-	    dt = (t2 - t1); //0.477 //0.379
+	    dt = (t2 - t1);
 	    dt = (float)(dt/1000f);
 	    print("Tail Recursion in:", dt);
+
+	    //Iterative
+	    t1 = System.currentTimeMillis();
+	    print(n + "th fibonacci number is:", fibIterative(n));
+	    t2 = System.currentTimeMillis();
+	    dt = (t2 - t1);
+	    dt = (float)(dt/1000f);
+	    print("Iterative in:", dt);
 
 	}
 
