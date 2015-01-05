@@ -24,6 +24,14 @@ public class Fib {
 	    dt = (float)(dt/1000f);
 	    print("Iterative in:", dt);
 
+	    //Recursive
+	    t1 = System.currentTimeMillis();
+	    print(n + "th fibonacci number is:", fibRec(n));
+	    t2 = System.currentTimeMillis();
+	    dt = (t2 - t1);
+	    dt = (float)(dt/1000f);
+	    print("Recursive in:", dt);
+
 	}
 
 	/**
@@ -56,7 +64,11 @@ public class Fib {
 	  		n2 = ans;
 	 	}
 	 	return ans;
-	} 
+	}
+
+	public static long fibRec(final int n) {
+		return (n < 2) ? n : fibRec(n - 1) + fibRec(n - 2);
+	}
 
 	public static void print(Object... msg) {
 		String new_msg = "";
