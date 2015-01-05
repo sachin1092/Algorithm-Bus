@@ -19,7 +19,7 @@ public class Fib {
 	}
 
 	/**
-	 * [ftTail To find Nth Fibonacci number using tail recursion]
+	 * [fibTail To find Nth Fibonacci number using tail recursion]
 	 * @param  n   [position in fibonacci sequence]
 	 * @return nth number in fibonacci sequence
 	 */
@@ -29,6 +29,32 @@ public class Fib {
 	 
 	private static long fibHelper(final long a, final long b, final int n) {
 		return n < 1 ? a : n == 1 ?  b : fibHelper(b, a + b, n - 1);
+	}
+
+	/**
+	 * [fibIterative To find Nth Fibonacci number using iterative method]
+	 * @param  n   [position in fibonacci sequence]
+	 * @return nth number in fibonacci sequence
+	 */
+	public static long fibIterative(int n) {
+		if (n < 2)
+	  		return n;
+		long ans = 0;
+	 	long n1 = 0;
+	 	long n2 = 1;
+	 	for(n--; n > 0; n--) {
+	  		ans = n1 + n2;
+	  		n1 = n2;
+	  		n2 = ans;
+	 	}
+	 	return ans;
+	} 
+
+	public static void print(Object... msg) {
+		String new_msg = "";
+        for(Object m : msg)
+            new_msg = new_msg + " " + m.toString();
+		System.out.println(new_msg);
 	}
 
 }
