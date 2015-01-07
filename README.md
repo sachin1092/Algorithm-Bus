@@ -8,7 +8,7 @@ Algorithms:
 
 <b>Completed:</b>
 * Factorial Finder 
-* Fibonacci Sequence { (✗)Ruby (✗)Python (✗)Haskel (✓)Java }
+* Fibonacci Sequence { (✗)Ruby (✓)Python (✗)Haskel (✓)Java }
 
 <b>TO DO:</b>
 * Prime Factorization
