@@ -69,7 +69,7 @@ public class Fib {
 
 	/**
 	 * [fibRecursive To find Nth Fibonacci number using recursive method]
-	 * @param  n   [position of number fibonacci sequence]
+	 * @param  n   [position of number in fibonacci sequence]
 	 * @return nth number in fibonacci sequence
 	 */
 	public static long fibRec(final int n) {
