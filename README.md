@@ -8,6 +8,8 @@ Algorithms:
 
 <b>Completed:</b>
 * Factorial Finder 
+
+<b>In progress:</b>
 * Fibonacci Sequence { (✗)Ruby (✓)Python (✗)Haskel (✓)Java }
 
 <b>TO DO:</b>
