@@ -1,7 +1,7 @@
 Algorithm-Bus
 =============
 
-Basic algorithms implemented in Python, Ruby, Java and Haskell and benchmarking there performance.
+Basic algorithms implemented in Python, Ruby, Java and Haskell and benchmarking there performance
 
 Algorithms:
 --
