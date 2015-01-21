@@ -1,13 +1,15 @@
 Algorithm-Bus
 =============
 
-Basic algorithms implemented in Python, Ruby, Java and Haskell and benchmarking there performance.
+Basic algorithms implemented in Python, Ruby, Java and Haskell and benchmarking there performance
 
 Algorithms:
 --
 
 <b>Completed:</b>
 * Factorial Finder 
+
+<b>In progress:</b>
 * Fibonacci Sequence { (✗)Ruby (✓)Python (✗)Haskel (✓)Java }
 
 <b>TO DO:</b>
