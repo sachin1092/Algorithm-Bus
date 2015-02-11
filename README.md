@@ -10,12 +10,12 @@ Algorithms:
 * Factorial Finder 
 
 <b>In progress:</b>
-* Fibonacci Sequence { (✗)Ruby (✓)Python (✗)Haskel (✓)Java }
+* Fibonacci Sequence { (✗)Ruby (✓)Python (✓)Haskel (✓)Java }
+* Merge sort { (✗)Ruby (✗)Python (✗)Haskel (✗)Java }
 
 <b>TO DO:</b>
 * Prime Factorization
 * Next Prime Number
-* Merge sort
 * Bubble sort
 * Quick sort
 * Binary Search
