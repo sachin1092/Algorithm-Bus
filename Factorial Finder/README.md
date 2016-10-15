@@ -64,5 +64,8 @@ Limit | Tail Recursive | Product | Fold
 SML
 --
 
-50000: 1min 22s
-75000: 3min 45s
+Limit | Tail Recursive | Product | Fold
+--- | --- | --- | --- 
+50000|  1min 22s | - | -
+75000 | 3min 45s | - | -
+
